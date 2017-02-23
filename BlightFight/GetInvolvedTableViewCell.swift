@@ -25,6 +25,7 @@ class GetInvolvedTableViewCell: UITableViewCell {
     @IBOutlet var eventNameLabel: UILabel!
     @IBOutlet var eventDateLabel: UILabel!
     @IBOutlet var eventImageView: UIImageView!
+    @IBOutlet var discriptionLabel: UILabel!
     
     
 }

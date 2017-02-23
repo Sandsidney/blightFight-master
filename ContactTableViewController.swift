@@ -48,9 +48,9 @@ class ContactTableViewController: UITableViewController {
         return contactNames.count
     }
  
-    var contactNames = ["Sara Ogden", "Carol Newman", "Jennifer Hodges", "James Watson", "Sidney Watson", "Sam Hardacre", "Brooke Tucker", "Eric Wilson", "Felicity Blake", "Jennifer Butler", "Colin Mitchell", "William Quinn"]
+    var contactNames = ["Sara Ogden", "Carol Newman", "Jennifer Hodges", "Clem Smythe", "Sidney Watson", "Sam Hardacre", "Brooke Tucker", "Eric Wilson", "Felicity Blake", "Jennifer Butler", "Colin Dinkelmeyer", "William Quinn"]
     
-    var contactEmails = ["sara.ogden@badinhs.org", "carol.newman@badinhs.org", "jennifer.hodges@badinhs.org", "james.watson@badinhs.org", "sidney.watson@badinhs.org", "sam.hardacre@badinhs.org", "brooke.tucker@badinhs.org", "eric.wilson@badinhs.org", "felicity.blake@badinhs.org", "jennifer.butler@badinhs.org", "colin.mitchell@badinhs.org", "william.quinn@badinhs.org"]
+    var contactEmails = ["sara.ogden@badinhs.org", "carol.newman@badinhs.org", "jennifer.hodges@badinhs.org", "clem.smythe@badinhs.org", "sidney.watson@badinhs.org", "sam.hardacre@badinhs.org", "brooke.tucker@badinhs.org", "eric.wilson@badinhs.org", "felicity.blake@badinhs.org", "jennifer.butler@badinhs.org", "colin.dinkelmeyer@badinhs.org", "william.quinn@badinhs.org"]
     
     var contactJobTitles = ["Homeowner Association Manager", "Land Acquisition Manager", "Leasing Property Manager", "Homeowner Association Manager", "Real Estate Manager", "Property Manager", "Homeowner Association Manager", "Leasing Property Manager", "Land Acquisition Manager", "Real Estate Manager", "Property Manager", "Homeowner Association Manager"]
     

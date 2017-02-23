@@ -37,6 +37,9 @@ class GetInvolvedTableViewController: UITableViewController {
         cell.eventNameLabel.text = events[indexPath.row]
         cell.eventImageView.image = UIImage(named: eventImages[indexPath.row])
         cell.eventDateLabel.text = dates[indexPath.row]
+        cell.discriptionLabel.text = eventDescription[indexPath.row]
+        
+        //change the color of the checkmark
         cell.tintColor = UIColor.green
         if eventIsVisited[indexPath.row] {
             cell.accessoryType = .checkmark
@@ -58,10 +61,12 @@ class GetInvolvedTableViewController: UITableViewController {
     var events = ["Trash Clean up day", "River Walk","Earth Day", "Park Construction", "Park Clean Up", "Landscaping"]
     var eventImages = ["trashPickUp.jpg", "riverPickUp.png", "earthDay.png", "parkBuilding.png", "treePlanting.png", "plantingGrass.png"]
     var dates = ["March 3, 2017", "March 25, 2017", "April 14, 2017", "April 28, 2017", "May 5, 2017", "May 19, 2107"]
+    var eventDescription = ["Join us in picking up trash along Pleasent Ave.", "Walk the river and help find trash to keepthe river garbage free.", "Come join us on Earth Day!", "Come help us put together the new park.", "Come help at Joyce Park to clean up the trash and pilled up leaves to make the park safer.", "Help but some mulch down around the city signs to give it a fresh new look."]
+    
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Create an option menu as an action sheet
-        let optionMenu = UIAlertController(title: nil, message: "What do you want to do?", preferredStyle: .alert)
+        let optionMenu = UIAlertController(title: nil, message: "Would you like to help clean up the city?", preferredStyle: .alert)
         
         // Add actions to the menu
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)

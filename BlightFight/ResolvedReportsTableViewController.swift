@@ -48,14 +48,14 @@ class ResolvedReportsTableViewController: UITableViewController {
     }
 
     
-    var numberData = ["#123", "#124", "#125", "#126", "#127", "#128", "#129", "#130", "#131", "#132", "#133", "#134", "#135", "#136", "#137", "#138", "#139"]
+    var numberData = ["#123", "#124", "#125", "#126", "#127", "#128", "#129", "#130", "#131", "#132"]
     
     
-    var dateResolvedData = ["February 23, 2016", "March 8, 2016", "March 15, 2016", "March 28, 2016", "April 5, 2016", "July 14, 2016", "August 1, 2016", "August 3, 2016", "August 5, 2016", "September 14, 2016", "September 21, 2016", "September 22, 2016", "October 6, 2016", "October 14, 2016", "November 9, 2016", "December 7, 2016", "January 4, 2017"]
+    var dateResolvedData = ["February 23, 2016", "March 8, 2016", "March 15, 2016", "March 28, 2016", "April 5, 2016", "July 14, 2016", "August 1, 2016", "August 3, 2016", "August 5, 2016", "September 14, 2016"]
     
-    var streetName = ["45 Bliss Lane Hamilton OH", "674 Broom Street Hamilton OH", "7645 Pinnacle Passage Hamilton OH", "6453 Moon Street Hamilton OH", "36 Providence Street Hamilton OH", "645 Angel Avenue Hamilton OH", "3445 Lowland Boulevard Hamilton OH", "356 Winter Avenue Hamilton OH", "2454 Sycamore Passage Hamilton OH", "78 Market Lane Hamilton OH", "3567 Pearl Route Hamilton OH", "2452 Theater Way Hamilton OH", "467 Senna Row Hamilton OH", "2465 Brook Boulevard Hamilton OH", "2453 Bellow Row Hamilton OH", "456 Mason Way Hamilton OH", "867 Jewel Boulevard Hamilton OH"]
+    var streetName = ["45 Bliss Lane Hamilton OH", "674 Broom Street Hamilton OH", "7645 Pinnacle Passage Hamilton OH", "6453 Moon Street Hamilton OH", "36 Providence Street Hamilton OH", "645 Angel Avenue Hamilton OH", "3445 Lowland Boulevard Hamilton OH", "356 Winter Avenue Hamilton OH", "2454 Sycamore Passage Hamilton OH", "78 Market Lane Hamilton OH"]
     
-    var recentReportImageData = ["checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png", "checked-checkbox-512.png"]
+    var recentReportImageData = ["houseRedo1.png", "parkRedo1.png", "houseRedo2.png", "tree1.png", "houseRedo3.png", "parkRedo2.png", "houseRedo4.png", "parkRedo3.png", "tree2.png", "houseRedo5.png"]
     
     
 
