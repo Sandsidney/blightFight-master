@@ -75,46 +75,24 @@ class GetInvolvedTableViewController: UITableViewController {
         // Display the menu
         present(optionMenu, animated: true, completion: nil)
        
-        /*
-        // Add Call action
-        let callActionHandler = { (action:UIAlertAction!) -> Void in
-            let alertMessage = UIAlertController(title: "Service Unavailable", message: "Sorry, the call feature is not available yet. Please retry later.", preferredStyle: .alert)
-            alertMessage.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            self.present(alertMessage, animated: true, completion: nil)
-        }
- 
-        let callAction = UIAlertAction(title: "Call " + "123-000-\(indexPath.row)", style: .default, handler: callActionHandler)
-        optionMenu.addAction(callAction)
-        */
-        
         // Check-in action
-        let checkInAction = UIAlertAction(title: "Join in", style: .default, handler: {
+        let checkInTitle = eventIsVisited[indexPath.row] ? "Undo join in" : "Join in"
+        let checkInAction = UIAlertAction(title: checkInTitle, style: .default, handler: {
             (action:UIAlertAction!) -> Void in
-            
+        
             let cell = tableView.cellForRow(at: indexPath)
-            cell?.accessoryType = .checkmark
-            self.eventIsVisited[indexPath.row] = true
-        })
+            
+            // Toggle check-in and undo-check-in
+            self.eventIsVisited[indexPath.row] = self.eventIsVisited[indexPath.row] ? false : true
+            cell?.accessoryType = self.eventIsVisited[indexPath.row] ? .checkmark : .none
+            })
         optionMenu.addAction(checkInAction)
         
         tableView.deselectRow(at: indexPath, animated: false)
         
     }
   
-    var eventIsVisited = Array(repeating: false, count: 21)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    var eventIsVisited = Array(repeating: false, count: 10)
     
     
     
